@@ -67,7 +67,7 @@ div.wallpaper p{
   overflow: hidden;
 }
 .M-counter > div{
-  padding: 20px 0;
+  overflow: hidden;
 }
 .M-counter .item i{
   font-size: 30px;
@@ -291,6 +291,36 @@ div.wallpaper.wallpaperMore{
   margin:0 auto;
 }
 /*-aboutPage*/
+
+/*-SinglePage*/
+.img-post{
+  background-size: cover;
+  overflow: hidden;
+  height: 400px;
+}
+
+.container-fluid .post-header {
+  overflow: hidden;
+}
+.container-fluid .post-header h1{
+  color: #fec503;
+  text-shadow: 1px 2px 0px #ddd;
+}
+.container-fluid .PostPrice{
+  width: 100px;
+  background-color: #0984e3;
+  box-shadow: 3px 3px 0px #74b9ff;
+  display: block;
+  padding: 5px;
+  border-radius:5px;
+  color: #fff;
+}
+.container-fluid article {
+  margin:0 auto;
+  line-height: 2.1;
+   
+}
+/*-SinglePage*/
 
 /*-FooterStyle*/
 footer .about-us{
